@@ -1,4 +1,10 @@
-# Lab: Fun with Functions
+# Lab: 201-05a
+
+Author: Simon Panek
+
+Contributions:
+
+JP and I collaborated for the solution found to stretch question 6. Thanks JP!
 
 ## Problem Domain
 
