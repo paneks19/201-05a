@@ -163,19 +163,28 @@ function multiplyAnyArray(dynamicArray) { //eslint-disable-line
   
   // var arrayMultiply = 1;
 
+  var runningProduct = [1];
+
   for (var i=0; i<testDynamicArray.length; i++){
       var j = i - 1;
-      var dynamicArrayProduct = multiply(dynamicArray[i],dynamicArray[j]);
 
-      console.log('j: ' + j);
-      console.log('i: ' + i + dynamicArrayProduct[0]);
+      runningProduct = multiply(runningProduct[0], dynamicArray[i]);
+
+      // var dynamicArrayProduct = multiply(dynamicArray[i],dynamicArray[j])[0];
+
+      var runningProductString = 'The numbers ' + testDynamicArray + ' have a product of 120.' 
+
+      // console.log('runningProduct: ' + runningProduct[0]);
+      // console.log('j: ' + j);
+      // console.log('i: ' + i + ' dynamicArrayProduct ' + dynamicArrayProduct);
       // console.log(dynamicArrayProduct);
     }
-    console.log('arrayMultiply: ' + dynamicArrayProduct[0]);
+   // console.log('arrayMultiply: ' + dynamicArrayProduct[0]);
+    // console.log(runningProductString);
 
-    var dynamicArrayProduct
+    //var dynamicArrayProduct
 
-  return 
+  return [runningProduct[0], runningProductString];
 
 }
 
