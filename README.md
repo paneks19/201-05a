@@ -2,8 +2,9 @@
 
 Author: Simon Panek
 
-Contributions:
+## Contributions
 
+JP provided advice regarding how to increase the number of arguments allowed by the functions created in question 1 and 2 for use in 3 and 4. Thanks JP!
 JP and I collaborated for the solution found to stretch question 6. Thanks JP!
 
 ## Problem Domain
